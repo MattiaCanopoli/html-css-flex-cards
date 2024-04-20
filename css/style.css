@@ -15,10 +15,11 @@ a {
 /*global*/
 
 body {
-    max-width: 70%;
+
     margin: auto;
     font-family: "Fredoka", sans-serif;
     font-style: normal;
+    max-width: 70%;
 }
 
 
@@ -42,7 +43,10 @@ header h1 {
 }
 
 .card-container {
-    background-color: cadetblue;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 
@@ -51,9 +55,24 @@ header h1 {
 .card-container .card {
     background-color: #0f0e17;
     color: white;
+    width: 22.5rem;
+    display: flex;
+    margin-bottom: 25px;
 }
 
-.card-container.card .name {
+.card-container .card img {
+    width: 100px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.card-container .card .member-info {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.card-container .card .name {
     text-transform: uppercase;
     font-weight: 700;
 }
