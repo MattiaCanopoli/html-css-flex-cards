@@ -1,0 +1,64 @@
+/*RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #17ccf2;
+    font-weight: 500;
+}
+
+/*global*/
+
+body {
+    max-width: 70%;
+    margin: auto;
+    font-family: "Fredoka", sans-serif;
+    font-style: normal;
+}
+
+
+/*header*/
+
+header {
+    margin: 40px 0;
+}
+
+header h1 {
+    text-transform: capitalize;
+    color: #e53170;
+    text-align: center;
+}
+
+/*main*/
+
+.description {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.card-container {
+    background-color: cadetblue;
+}
+
+
+/*cards*/
+
+.card-container .card {
+    background-color: #0f0e17;
+    color: white;
+}
+
+.card-container.card .name {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.card-container .card .job {
+    text-transform: capitalize;
+    font-weight: 500;
+}
