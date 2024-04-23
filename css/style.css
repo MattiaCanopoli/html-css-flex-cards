@@ -15,11 +15,13 @@ a {
 /*global*/
 
 body {
-
-    margin: auto;
     font-family: "Fredoka", sans-serif;
+}
+
+.container {
+    margin: auto;
     font-style: normal;
-    width: 1140px;
+    max-width: 1140px;
 }
 
 ul {
